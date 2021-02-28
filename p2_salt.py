@@ -65,4 +65,4 @@ plt.legend(['data',
             loc='best')
 plt.xlabel('Time (minutes)')
 plt.ylabel('Salt concentration')
-plt.savefig('p2_salt2_%dsteps.png' % steps, dpi=300, bbox_inches='tight')
+# plt.savefig('p2_salt2_%dsteps.png' % steps, dpi=300, bbox_inches='tight')

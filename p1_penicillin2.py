@@ -49,7 +49,7 @@ plt.plot(P, dP, 'kx', P, slope*P, 'b-')
 plt.legend(['data', 'linear regression $R^2$=%.2f' % results.rsquared], loc='best')
 plt.xlabel('P')
 plt.ylabel('dP')
-plt.savefig('p1_penicillin_linear2.png', dpi=300, bbox_inches='tight')  # Save figure 1
+# plt.savefig('p1_penicillin_linear2.png', dpi=300, bbox_inches='tight')  # Save figure 1
 
 # Complete the model and make a prediction
 # The model has the form B(t+1) = B[0]*(slope+1)^t
@@ -61,4 +61,4 @@ plt.plot(t, P, 'kx', t, Pmodel, 'r-')
 plt.legend(['data', 'model prediction'], loc='best')
 plt.xlabel('t (min)')
 plt.ylabel('Penicillin ($\mu$ g/ml)')
-plt.savefig('p1_penicillin_model2.png', dpi=300, bbox_inches='tight')  # Save figure 2
+# plt.savefig('p1_penicillin_model2.png', dpi=300, bbox_inches='tight')  # Save figure 2
